@@ -3,10 +3,16 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+        fontFamily: {
+      'kaushan':['Kaushan Script']
   },
-  variants: {
-    extend: {},
+    extend: {
+      colors: {
+        purple: {         
+          DEFAULT: '#DDD6FE',       
+        }
+      }
+    },
   },
   plugins: [],
 }
