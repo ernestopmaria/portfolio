@@ -1,5 +1,5 @@
 import {RiComputerLine} from 'react-icons/ri'
-import {FaServer} from 'react-icons/fa'
+import {FaServer,FaConnectdevelop} from 'react-icons/fa'
 import {AiOutlineApi} from 'react-icons/ai'
 import { IService } from './type'
 
@@ -15,7 +15,7 @@ export const services:IService[] =[
     {
         Icon: FaServer,
         title:"Backend Development",
-        about: 'handle database, server , api using<b>Express </b> & other popular frameworks',
+        about: 'handle database, server , api using <b>Express </b> & other popular frameworks',
       
     },
     {
@@ -25,7 +25,13 @@ export const services:IService[] =[
         
     },
     {
-        Icon: AiOutlineApi,
+        Icon: FaConnectdevelop,
+        title:"DevOps Tools",
+        about: 'I am studing about DevOps and Virtualizations tools <b>Azure , Docker </b> ',
+        
+    },
+    {
+        Icon: RiComputerLine,
         title:"Whatever",
         about: 'I can develop robust REST API using<b>Node API </b> ',
         
