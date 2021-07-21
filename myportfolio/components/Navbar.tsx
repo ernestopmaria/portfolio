@@ -36,7 +36,7 @@ const Navbar =()=>{
 
     },[])
 
- return( <div className="flex justify-between px-5 my-3">
+ return( <div className="flex justify-between my-3 px-7 ">
      <span className='text-xl font-bold text-purple-800 border-b-4 border-purple-800 md:text-2xl' >{activeItem}</span>
      <div className="flex space-x-5 text-lg ">
          <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="About" route="/"/>
